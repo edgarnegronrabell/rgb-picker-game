@@ -1,9 +1,14 @@
-let colors = ["rgb(255, 0, 0)", 
-              "rgb(127, 255, 0)",
-              "rgb(250, 128, 114)",
-              "rgb(255, 69, 0)",
-              "rgb(34, 0, 255)",
-              "rgb(186, 60, 182)"];
+
+
+function randomNumber() {
+  return Math.floor(Math.random() * 255 );
+}
+let colors = [`rgb(${randomNumber()}, ${randomNumber()}, ${randomNumber()})`, 
+              `rgb(${randomNumber()}, ${randomNumber()}, ${randomNumber()})`,
+              `rgb(${randomNumber()}, ${randomNumber()}, ${randomNumber()})`,
+              `rgb(${randomNumber()}, ${randomNumber()}, ${randomNumber()})`,
+              `rgb(${randomNumber()}, ${randomNumber()}, ${randomNumber()})`,
+              `rgb(${randomNumber()}, ${randomNumber()}, ${randomNumber()})`];
 
 const squares = document.querySelectorAll(".squares");
 
