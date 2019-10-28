@@ -8,8 +8,12 @@ body {
   background: #232323;
   margin-top: 25vh;
 }
-.navbar {
+.controls {
+  background: #fff;
+  border: black 1px solid;
+  display: flex;
   margin: 0 auto;
+  padding: 2vh;
   width: 100%;
 }
 #randomize {
